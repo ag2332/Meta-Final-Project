@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import mainImg from "../images/restaurantfood.webp";
 
 const Header = () => {
     return (
@@ -17,7 +18,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="banner-img">
-                    <img src={img} alt=""/>
+                    <img src={mainImg} alt=""/>
                 </div>
             </section>
         </header>

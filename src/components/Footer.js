@@ -1,11 +1,12 @@
 import React from "react";
+import small_logo from "./small_logo.png";
 
 const Footer = () => {
     return (
         <footer className="">
             <section>
                 <div className="company-info">
-                    <img/> // insert photo here
+                    <img src={small_logo} alt=""/>
                     <p>The finest family owned Mediterranean restaurant, with local ingredients and modern recipes</p>
                 </div>
                 <div>
